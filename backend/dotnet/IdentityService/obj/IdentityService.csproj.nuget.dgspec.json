@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gaming PC\\Desktop\\project anbdl bih rassi\\backend\\dotnet\\IdentityService\\IdentityService.csproj": {}
+    "C:\\Users\\Gaming PC\\Desktop\\recruitment-platform-monorepo\\backend\\dotnet\\IdentityService\\IdentityService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gaming PC\\Desktop\\project anbdl bih rassi\\backend\\dotnet\\IdentityService\\IdentityService.csproj": {
+    "C:\\Users\\Gaming PC\\Desktop\\recruitment-platform-monorepo\\backend\\dotnet\\IdentityService\\IdentityService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gaming PC\\Desktop\\project anbdl bih rassi\\backend\\dotnet\\IdentityService\\IdentityService.csproj",
+        "projectUniqueName": "C:\\Users\\Gaming PC\\Desktop\\recruitment-platform-monorepo\\backend\\dotnet\\IdentityService\\IdentityService.csproj",
         "projectName": "IdentityService",
-        "projectPath": "C:\\Users\\Gaming PC\\Desktop\\project anbdl bih rassi\\backend\\dotnet\\IdentityService\\IdentityService.csproj",
+        "projectPath": "C:\\Users\\Gaming PC\\Desktop\\recruitment-platform-monorepo\\backend\\dotnet\\IdentityService\\IdentityService.csproj",
         "packagesPath": "C:\\Users\\Gaming PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gaming PC\\Desktop\\project anbdl bih rassi\\backend\\dotnet\\IdentityService\\obj\\",
+        "outputPath": "C:\\Users\\Gaming PC\\Desktop\\recruitment-platform-monorepo\\backend\\dotnet\\IdentityService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gaming PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,9 +46,23 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.14, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.14, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.0, )"
             }
           },
           "imports": [
